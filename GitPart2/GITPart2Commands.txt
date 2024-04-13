@@ -1,0 +1,85 @@
+Day2
+ 1  yum install git -y
+    2  git -version
+    3  git --version
+    4  mkdir developer
+    5  cd developer/
+    6  ls
+    7  ls
+    8  cd developer/
+    9  git init
+   10  ls
+   11  cd developer/
+   12  git branch
+   13  git branch dev
+   14  git branch qa
+   15  git branch test
+   16  git branch cherry
+   17  git branch
+   18  git checkout dev
+   19  vi coding
+   20  git status
+   21  git commit -am "third line added"
+   22  git log
+   23  git checkout master
+   24  git checkout main
+   25  git merge dev
+   26  git log --oneline
+   27  git branch
+   28  history
+   29  git checkout dev
+   30  vi coding
+   31  git commit -am "fourth line added"
+   32  git checkout main
+   33  vi coding
+   34  git status
+   35  git commit -am "fourth line added"
+   36  git merge dev
+   37  git config --global merge.tool vimdiff
+   38  git config --global merge.conflictstyle diff3
+   39  git config --global mergetool.prompt false
+   40  history
+   41  git mergetool
+   42  history
+   43  ls
+   44  git checkout dev
+   45  git checkout cherry-pick
+   46  git branch cherry-pick
+   47  git checkout cheryy-pick
+   48  git branch
+   49  git checkout cherry-pick
+   50  git log --oneline
+   51  git cherry-pick b89dcaa
+   52  git branch
+   53  git checkout dev
+   54  git branch --delete cherry-pick
+   55  git rebase cherry-pick
+   56  git commit -am "changes"
+   57  git rebase cherry-pick
+   58  git checkout qa
+   59  git log --oneline
+   60  git rebase cherry-pick
+   61  git log
+   67  git blame coding
+   68  git reset
+   69  git log --oneline
+   70  git stash
+   71  git branch
+   72  git checkout dev
+   73  git log
+   74  vi coding
+   75  git stash
+   76  git stash apply
+   77  git commit -am "stash"
+   78  git stash apply
+   79  git rm -rf coding.orig git2024
+   80  ls
+   81  git stash apply
+   82  git rm -rf coding.orig
+   83  git rm -f coding.orig
+   84  git status
+   85  git stash list
+   86  git stash show
+   87  history
+
+

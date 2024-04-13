@@ -1,0 +1,30 @@
+Day1 
+
+ 1  pwd
+    2  cd developer/
+    3  ls
+    4  git push -u origin main
+    5  cd ..
+    6  rm -ref developer/
+    7  rm -rf developer/
+    8  ls
+    9  mkdir developer
+   10  vi coding
+   11  git status
+   12  git init
+   13  git status
+   14  ls
+   15  cd developer/
+   16  git init
+   17  vi coding
+   18  ls
+   19  git status
+   20  git add
+   21  git add .
+   22  git status
+   23  git commit -m "first line added"
+   24  git log
+   25  git branch -M main
+   30  git push -u origin main
+   31  gi status
+   32  history
